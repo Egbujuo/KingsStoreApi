@@ -1,0 +1,36 @@
+.cart-container{
+    background-color: blueviolet;
+    width: 100%;   
+}
+.cart-wrap{
+    display: flex;
+    width: 90%;
+    margin: 0 auto; 
+    justify-content: space-between;   
+}
+.cart-wrap img{
+    width: 60%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-right: 60px; 
+    margin-top: 20px;   
+}
+.btn-increase{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+ .cart-text{
+    text-align: left;
+    max-width: 300px;   
+}
+.cart-wrap button{
+    height: 30px;
+    padding: 10px;
+}
+@media (min-width:750px) {
+    .cart-img{
+        display: flex;
+    }
+    
+} 
